@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-image: url(./images.jfif);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 250px;
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+#name{
+    width: 200px;
+}
+span{
+    background: darkslateblue;
+}
+h1{
+    display: grid;
+    text-align: center;
+    background: darkslateblue;
+    
+}
+#description{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px;
+    background: darkslateblue
+}
+#survey-form{
+    background: darkslateblue;
+    color: white;
+    padding: 5px;
+    line-height: 1.4em;
+    transition: .4s ease;
+}
+input{
+    color: white;
+    background: gray;
+    outline: none;
+
+    margin: 0 auto;
+}
+label{
+    background: darkslateblue;
+}
+.forms{
+    background: darkslateblue;
+}
+.fav{
+    background: darkslateblue;
+    outline: none;
+    border: darkslateblue;
+}
+textarea{
+    outline: none;
+    overflow:auto;
+}
+button{
+    width: 100px;
+    background: blueviolet;
+    height: 35px;
+}
+button:hover{
+    outline: none;
+    background: saddlebrown;
+}
